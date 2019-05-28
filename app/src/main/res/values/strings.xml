@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">koltlinLearn</string>
+    <string name="btn_google_login">Google Login</string>
+    <string name="btn_facebook_login">Facebook Login</string>
+    <string name="txt_app_title">FunnyJerry Kotlin Learning</string>
 </resources>
