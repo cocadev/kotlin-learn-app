@@ -24,14 +24,16 @@
             android:text="astroguru"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" android:textSize="30sp" android:textColor="#F3D30F"
-            android:layout_marginTop="8dp" android:layout_marginLeft="8dp" android:layout_marginStart="8dp"/>
+            android:layout_marginTop="8dp" android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+            android:id="@+id/game_score_text_view"/>
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Log In"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" android:textSize="24sp" android:textColor="#02FF0C"
-            android:layout_marginRight="8dp" android:layout_marginEnd="8dp" android:layout_marginTop="12dp"/>
+            android:layout_marginRight="8dp" android:layout_marginEnd="8dp" android:layout_marginTop="12dp"
+            android:id="@+id/time_left_text_view"/>
     <Button
             android:text="@string/btn_facebook_login"
             android:layout_width="236dp"
@@ -55,5 +57,10 @@
             app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
             android:layout_marginStart="8dp" android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
             app:layout_constraintHorizontal_bias="0.496"/>
+    <Button
+            android:text="Tap Me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="683dp"
+            tools:layout_editor_absoluteX="323dp" android:id="@+id/tap_me_button"/>
 
 </android.support.constraint.ConstraintLayout>
