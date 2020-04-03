@@ -1,1 +1,1 @@
-# kotlin-learn-app with eugene
+# kotlin-learn-app
